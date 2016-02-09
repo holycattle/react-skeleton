@@ -1,0 +1,37 @@
+# OS garbage
+.DS_Store
+Thumbs.db
+
+# play
+target/
+logs/
+node_modules/
+bower_components/
+work/
+.sbtopts
+
+# webpack
+public/react/
+public/users/
+public/angular/
+bundle.js
+bundle.*.js
+bundle.css
+typings/
+temp/
+
+# IDE
+.idea
+
+# backups
+*~
+.*.sw[po]
+*.orig
+
+# personal codes
+/,
+
+# messages
+conf/messages
+conf/messages.ja
+

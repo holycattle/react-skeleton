@@ -1,0 +1,56 @@
+$header-height: 50px;
+$sidemenu-width: 200px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.header {
+  width: 100%;
+  height: $header-height;
+  background-color: navy;
+  color: white;
+  margin: 0;
+  padding: 10px;
+}
+
+.sidemenu {
+  position: absolute;
+  width: $sidemenu-width;
+  height: calc(100% - #{$header-height});
+  background-color: #005E88;
+}
+
+.workspace {
+  width: 100%;
+  height: calc(100% - #{$header-height});
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+.content-with-sidemenu {
+  margin-left: $sidemenu-width;
+  width: calc(100% - #{$sidemenu-width});
+  height: 100%;
+}
